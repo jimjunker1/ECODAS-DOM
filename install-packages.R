@@ -10,5 +10,5 @@ if ("pacman" %in% rownames(installed.packages()) == FALSE) install.packages("pac
 
 pacman::p_load(plyr, tidyverse)
 
-pacman::p_load_gh(c("jimjunker1/junkR"))#, "ropensci/rfishbase"))
+pacman::p_load_gh(c("jimjunker1/junkR"))
 theme_set(theme_mod)
